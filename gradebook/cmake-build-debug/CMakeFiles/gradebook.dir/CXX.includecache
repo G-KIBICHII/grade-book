@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/dev/CLionProjects/gradebook/gradeBook.h
+iostream
+-
+string
+-
+iomanip
+-
+
+/home/dev/CLionProjects/gradebook/main.cpp
+gradeBook.h
+/home/dev/CLionProjects/gradebook/gradeBook.h
+
